@@ -42,6 +42,14 @@
         font-size: 40px;
     }
 
+    .section-capa {
+        background-position: 75% center;
+    }
+
+    .container-capa {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
     .paragrafo-capa {
         font-size: 20px;
     }

@@ -1,0 +1,43 @@
+header {
+    padding: 10px 15px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.links-topo a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.links-topo a:hover {
+    background-color: #1d1d1d;
+    color: #fff;
+    border-radius: 8px;
+}
+
+@media (max-width: 550px) {
+    .container-header {
+        flex-direction: column;
+    }
+
+    .links-topo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+}
